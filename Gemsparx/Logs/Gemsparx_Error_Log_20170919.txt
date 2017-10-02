@@ -1,0 +1,42 @@
+
+
+Date --9/19/2017 4:23:55 PM
+ErrorMessage --Attempted to access an unloaded appdomain. (Exception from HRESULT: 0x80131014) | Error Source:- mscorlib | TargetSite:- System.Exception InternalGetCOMHRExceptionObject(Int32, IntPtr, System.Object, Boolean)
+
+****************************************************************************************
+
+
+Date --9/19/2017 4:25:49 PM
+ErrorMessage --Cannot find column 1023. | Error Source:- System.Data | TargetSite:- System.Data.DataColumn get_Item(Int32)
+
+****************************************************************************************
+
+
+Date --9/19/2017 4:34:48 PM
+ErrorMessage --Cannot find column 1023. | Error Source:- System.Data | TargetSite:- System.Data.DataColumn get_Item(Int32)
+
+****************************************************************************************
+
+
+Date --9/19/2017 4:36:55 PM
+ErrorMessage --Cannot find column 1023. | Error Source:- System.Data | TargetSite:- System.Data.DataColumn get_Item(Int32)
+
+****************************************************************************************
+
+
+Date --9/19/2017 4:38:05 PM
+ErrorMessage --Cannot find column 1023. | Error Source:- System.Data | TargetSite:- System.Data.DataColumn get_Item(Int32)
+
+****************************************************************************************
+
+
+Date --9/19/2017 4:38:29 PM
+ErrorMessage --Cannot find column 1023. | Error Source:- System.Data | TargetSite:- System.Data.DataColumn get_Item(Int32)
+
+****************************************************************************************
+
+
+Date --9/19/2017 5:42:39 PM
+ErrorMessage --Cannot find column 1023. | Error Source:- System.Data | TargetSite:- System.Data.DataColumn get_Item(Int32)
+
+****************************************************************************************

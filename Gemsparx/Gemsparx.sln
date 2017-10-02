@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Gemsparx", ".", "{B4C4EB4E-9D6F-4CB3-B276-3DA7BBF04F97}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56451"
+		Debug.AspNetCompiler.PhysicalPath = "..\Gemsparx\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56451\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56451"
+		Release.AspNetCompiler.PhysicalPath = "..\Gemsparx\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56451\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56451"
+		SlnRelativePath = "..\Gemsparx\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4C4EB4E-9D6F-4CB3-B276-3DA7BBF04F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C4EB4E-9D6F-4CB3-B276-3DA7BBF04F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF6AAFEF-1490-4CED-A962-FE7138EC02C2}
+	EndGlobalSection
+EndGlobal

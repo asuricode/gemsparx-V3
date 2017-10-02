@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetDiamondDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Uid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDiamondDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDiamondDetailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStockJsonSP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Uid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStockJsonSPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStockJsonSPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="apiforholding">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="packetno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="comment" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sellerid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="domain" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="uid" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="partymemid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="requestFor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="appname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="apiforholdingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="apiforholdingResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStockXMLSP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Uid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStockXMLSPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStockXMLSPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDiamondDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDiamondDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetDiamondDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDiamondDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStockJsonSPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStockJsonSP" />
+  </wsdl:message>
+  <wsdl:message name="GetStockJsonSPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStockJsonSPResponse" />
+  </wsdl:message>
+  <wsdl:message name="apiforholdingSoapIn">
+    <wsdl:part name="parameters" element="tns:apiforholding" />
+  </wsdl:message>
+  <wsdl:message name="apiforholdingSoapOut">
+    <wsdl:part name="parameters" element="tns:apiforholdingResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStockXMLSPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStockXMLSP" />
+  </wsdl:message>
+  <wsdl:message name="GetStockXMLSPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStockXMLSPResponse" />
+  </wsdl:message>
+  <wsdl:portType name="fullstockapiSoap">
+    <wsdl:operation name="GetDiamondDetail">
+      <wsdl:input message="tns:GetDiamondDetailSoapIn" />
+      <wsdl:output message="tns:GetDiamondDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStockJsonSP">
+      <wsdl:input message="tns:GetStockJsonSPSoapIn" />
+      <wsdl:output message="tns:GetStockJsonSPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="apiforholding">
+      <wsdl:input message="tns:apiforholdingSoapIn" />
+      <wsdl:output message="tns:apiforholdingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStockXMLSP">
+      <wsdl:input message="tns:GetStockXMLSPSoapIn" />
+      <wsdl:output message="tns:GetStockXMLSPSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="fullstockapiSoap" type="tns:fullstockapiSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDiamondDetail">
+      <soap:operation soapAction="http://tempuri.org/GetDiamondDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStockJsonSP">
+      <soap:operation soapAction="http://tempuri.org/GetStockJsonSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="apiforholding">
+      <soap:operation soapAction="http://tempuri.org/apiforholding" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStockXMLSP">
+      <soap:operation soapAction="http://tempuri.org/GetStockXMLSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="fullstockapiSoap12" type="tns:fullstockapiSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDiamondDetail">
+      <soap12:operation soapAction="http://tempuri.org/GetDiamondDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStockJsonSP">
+      <soap12:operation soapAction="http://tempuri.org/GetStockJsonSP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="apiforholding">
+      <soap12:operation soapAction="http://tempuri.org/apiforholding" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStockXMLSP">
+      <soap12:operation soapAction="http://tempuri.org/GetStockXMLSP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="fullstockapi">
+    <wsdl:port name="fullstockapiSoap" binding="tns:fullstockapiSoap">
+      <soap:address location="http://service.cdinesh.in/fullstockapi.asmx" />
+    </wsdl:port>
+    <wsdl:port name="fullstockapiSoap12" binding="tns:fullstockapiSoap12">
+      <soap12:address location="http://service.cdinesh.in/fullstockapi.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

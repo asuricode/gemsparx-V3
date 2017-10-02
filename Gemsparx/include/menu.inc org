@@ -1,0 +1,133 @@
+<!-- Logo Start -->
+<div class="logo pull-left">
+  <h1>
+    <a href="/">
+      <img src="/img/logo.png" alt="GemSparX" >
+                        </a>
+  </h1>
+</div>
+<!-- Logo End -->
+                  <!-- Mobile Menu Start -->
+                  <div class="mobile navbar-header">
+                     <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
+                     <i class="fa fa-bars fa-2x"></i>
+                     </a> 
+                  </div>
+                  <!-- Mobile Menu End -->
+                  <!-- Menu Start -->
+                  <nav class="collapse navbar-collapse menu">
+                     <ul class="nav navbar-nav sf-menu">
+                        <li>
+                           <a id="current" href="/">
+                           Home
+                           <span class="sf-sub-indicator">
+                           <i class="fa fa-angle-down "></i>
+                           </span>
+                           </a>
+                           
+                        </li>
+          
+	
+  		      <li><a href="#">
+                            Shop
+                            <span class="sf-sub-indicator">
+                              <i class="fa fa-angle-down"></i>
+                            </span>
+                            </a>
+                            <ul>
+                              <li><a href="SearchMain.aspx" class="sf-with-ul">Diamonds</a></li>
+                              <li><a href="https://shop.gemsparx.com/" class="sf-with-ul">Jewelry Collections</a></li>
+                              <li>
+                                <a href="#" class="sf-with-ul">Coming Soon<span class="sf-sub-indicator">
+                                  <i class="fa fa-angle-right "></i>
+                                </span>
+                              </a>
+                              
+                                <ul>
+                                  <li>
+                                    <a href="#" class="sf-with-ul">Deals of the Day</a>
+                                  </li>
+                                  <li>
+                                    <a href="#" class="sf-with-ul">One of a kind items</a>
+                                  </li>
+                                  <li>
+                                    <a href="#" class="sf-with-ul">We buy too!</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="SearchColored.aspx" class="sf-with-ul">Colored Diamonds</a>
+                              </li>
+                            </ul>
+                         </li>
+
+                       <li>
+                         <a href="#">
+                           Education
+                           <span class="sf-sub-indicator">
+                             <i class="fa fa-angle-down"></i>
+                           </span>
+                         </a>
+                         <ul>
+                           <li>
+                             <a href="Shapes.aspx" class="sf-with-ul">Diamond Shapes</a>
+                           </li>
+                           <li>
+                             <a href="learn4cs.aspx" class="sf-with-ul">4 C's</a>
+                           </li>
+                           <li>
+                             <a href="hca.aspx" class="sf-with-ul">Holloway Cut Adviser</a>
+                           </li>
+                         </ul>
+                       </li>
+  
+
+<li>
+                         <a href="faq.aspx">
+                           FAQs
+                           <span class="sf-sub-indicator">
+                            
+                           </span>
+                         </a>
+
+                       </li>
+                       
+
+
+                       <li>
+                         <a href="#">
+                           About us
+                           <span class="sf-sub-indicator">
+                             <i class="fa fa-angle-down"></i>
+                           </span>
+                         </a>
+                         <ul>
+                           <li>
+                             <a href="about.aspx" class="sf-with-ul">Our Company</a>
+                           </li>
+                           <li>
+                             <a href="contact.aspx" class="sf-with-ul">Contact Us</a>
+                           </li>
+                          <li>
+                             <a href="testimonials.aspx" class="sf-with-ul">Testimonials</a>
+                           </li>
+                         </ul>
+                       </li>
+
+
+                       <li>
+                         <a href="rewards.aspx">
+                           Rewards Program
+                           <span class="sf-sub-indicator">
+                            
+                           </span>
+                         </a>
+
+                       </li>
+                       
+                       
+                       
+                       
+                     </ul>
+                  </nav>
+                  <!-- Menu End --> 

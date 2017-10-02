@@ -1,0 +1,10 @@
+c:\users\aratakonda\documents\visual studio 2010\Projects\SearchDiamonds\SearchDiamonds\bin\SearchDiamonds.dll
+c:\users\aratakonda\documents\visual studio 2010\Projects\SearchDiamonds\SearchDiamonds\bin\SearchDiamonds.pdb
+c:\users\aratakonda\documents\visual studio 2010\Projects\SearchDiamonds\SearchDiamonds\obj\Debug\SearchDiamonds.dll
+c:\users\aratakonda\documents\visual studio 2010\Projects\SearchDiamonds\SearchDiamonds\obj\Debug\SearchDiamonds.pdb
+C:\Project\SearchDiamonds\bin\SearchDiamonds.dll.config
+C:\Project\SearchDiamonds\bin\SearchDiamonds.dll
+C:\Project\SearchDiamonds\bin\SearchDiamonds.pdb
+C:\Project\SearchDiamonds\obj\Debug\SearchDiamonds.dll
+C:\Project\SearchDiamonds\obj\Debug\SearchDiamonds.pdb
+C:\Project\SearchDiamonds\obj\Debug\SearchDiamonds.csprojResolveAssemblyReference.cache
